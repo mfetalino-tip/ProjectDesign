@@ -6,7 +6,7 @@ import torch
 import os
 
 # Load the YOLOv5 model
-model_path = "C:/PD/Tkinter/yolov5/runs/train/custom_model/weights/best.onnx"
+model_path = "C:/PD/Tkinter/best.onnx"
 model = torch.hub.load('ultralytics/yolov5', 'custom', path=model_path)
 
 # Temporary file for captured image
